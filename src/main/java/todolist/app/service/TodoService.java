@@ -6,6 +6,7 @@ import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
 import todolist.app.entity.Todo;
+
 import todolist.app.repository.TodoRepository;
 
 @Service
@@ -39,4 +40,5 @@ public class TodoService {
         return list();
 
     } 
+
 }
